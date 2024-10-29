@@ -19,8 +19,9 @@ static const char *colors[][3]      = {
 };
 
 static const char *const autostart[] = {
-  "screen-server-linux", "-vhost", "RiYuSong-Linux", NULL,
-  "feh", "--bg-scale", "/home/snail/.local/pictures/vector-on-the-moon.png", NULL,
+  "sh", "-c", "/home/snail/.local/init.sh", NULL,
+  "feh", "--bg-scale", "/home/snail/.local/wallpaper.png", NULL,
+  "/usr/lib/polkit-kde-authentication-agent-1", NULL,
 	NULL /* terminate */
 };
 
