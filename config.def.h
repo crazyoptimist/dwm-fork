@@ -22,8 +22,9 @@ static const char *const autostart[] = {
   "sh", "-c", "/home/snail/.local/init.sh", NULL,
   "feh", "--bg-scale", "/home/snail/.local/wallpaper.png", NULL,
   "/usr/lib/polkit-kde-authentication-agent-1", NULL,
-  "/usr/local/bin/mblocks", NULL,
-	NULL /* terminate */
+  "mblocks", NULL,
+  "fcitx5", NULL,
+  NULL /* terminate */
 };
 
 /* tagging */
