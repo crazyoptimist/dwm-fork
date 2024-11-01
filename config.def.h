@@ -8,15 +8,18 @@ static const int topbar = 1;            /* 0 means bottom bar */
 static const char *fonts[] = {"Hack Nerd Font:size=10"};
 static const char dmenufont[] = "monospace:size=10";
 
-static const char col_gray1[] = "#222222";
-static const char col_gray2[] = "#444444";
-static const char col_gray3[] = "#bbbbbb";
-static const char col_gray4[] = "#eeeeee";
-static const char col_cyan[] = "#005577";
+/* gruvbox-dark color scheme */
+static const char col_normfg[] = "#ebdbb2";     /* white */
+static const char col_normbg[] = "#282828";     /* black */
+static const char col_normborder[] = "#504945"; /* gray */
+static const char col_selfg[] = "#441959";      /* black */
+static const char col_selbg[] = "#d65d0e";      /* orange */
+static const char col_selborder[] = "#8ec07c";  /* aqua */
+
 static const char *colors[][3] = {
     /*               fg         bg         border   */
-    [SchemeNorm] = {col_gray3, col_gray1, col_gray2},
-    [SchemeSel] = {col_gray4, col_cyan, col_cyan},
+    [SchemeNorm] = {col_normfg, col_normbg, col_normborder},
+    [SchemeSel] = {col_selfg, col_selbg, col_selborder},
 };
 
 static const char *const autostart[] = {
