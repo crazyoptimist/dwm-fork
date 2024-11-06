@@ -8,13 +8,13 @@ static const int topbar = 1;            /* 0 means bottom bar */
 static const char *fonts[] = {"Hack Nerd Font:size=14"};
 static const char dmenufont[] = "monospace:size=10";
 
-/* gruvbox-dark color scheme */
-static const char col_normfg[] = "#ebdbb2";     /* white */
-static const char col_normbg[] = "#282828";     /* black */
-static const char col_normborder[] = "#504945"; /* gray */
-static const char col_selfg[] = "#441959";      /* black */
-static const char col_selbg[] = "#d65d0e";      /* orange */
-static const char col_selborder[] = "#8ec07c";  /* aqua */
+/* https://github.com/morhetz/gruvbox */
+static const char col_normfg[] = "#fbf1c7";     /* fg0 */
+static const char col_normbg[] = "#282828";     /* bg0 */
+static const char col_normborder[] = "#504945"; /* bg2 */
+static const char col_selfg[] = "#1d2021";      /* bg0_h */
+static const char col_selbg[] = "#98971a";      /* green */
+static const char col_selborder[] = "#b8bb26";  /* light green */
 
 static const char *colors[][3] = {
     /*               fg         bg         border   */
